@@ -179,3 +179,44 @@ nav {
     font-size: .8rem;
     font-weight: 500;
 }
+
+/* ***************Questions Section*************** */
+
+#questions-container {
+    text-align: center;
+    padding: 5rem;
+}
+
+#questions-info {
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 0 4%;
+    font-family: "Avenir Next", sans-serif;
+}
+
+#questions-info h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #1e3147;
+    margin-bottom: 1em;
+}
+
+#questions-info p {
+    color: #788ca1;
+    margin-bottom: 2rem;
+}
+
+#question-box {
+    width: 40rem;
+    margin: 0 auto;
+    padding: .8rem;
+    border: solid #59C6C4;
+    border-radius: 5px;
+    text-align: left;
+}
+
+#question-box span {
+    color: rgb(4, 116, 131);
+    margin-left: 20px;
+    font-weight: 600;
+}
