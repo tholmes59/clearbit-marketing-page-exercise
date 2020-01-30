@@ -10,7 +10,7 @@ html {
 }
 
 .body {
-    font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-family: "Avenir Next", sans-serif;
     min-height: 100vh;
     height: 100%; 
 }
@@ -77,9 +77,63 @@ nav {
 
 .client-row {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    padding: 1rem 0;
+    
 }
 
 .client-column {
-    flex: 20%;
-    align-content: center;
+    padding: 5px;
+    text-align: center;
+    background-color: whitesmoke;
   }
+
+.client-column img {
+    width: 40%;
+    height: auto;
+}
+
+/* ****************Quality Leads Section************** */
+
+#quality-leads {
+    text-align: center;
+    padding: 5rem;
+}
+
+#quality-leads-info {
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 0 4%;
+    font-family: "Avenir Next", sans-serif;
+}
+
+#quality-leads-info h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #1e3147;
+    margin-bottom: 1em;
+}
+
+#quality-leads-info p {
+    color: #788ca1;
+}
+
+#quality-leads-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 6rem 0;
+}
+
+.quality-leads-image {
+    margin: 5px;
+    width: 100%;
+    height: auto;
+}
+
+.quality-leads-image img {
+    width: 40%;
+}
+
