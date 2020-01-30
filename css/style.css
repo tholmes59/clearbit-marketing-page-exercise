@@ -137,3 +137,45 @@ nav {
     width: 40%;
 }
 
+/* **************Enrichment-Reveal Section****************** */
+
+#enrichment-reveal-container {
+    background-color: rgb(43, 6, 112);
+    background-image: linear-gradient(to right, rgb(43, 6, 112), #59C6C4);
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+#enrichment-reveal-enrichment {
+    font-family: "Avenir Next", sans-serif;
+    color: white;
+    line-height: 1.8;
+}
+
+#enrichment-reveal-enrichment h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#enrichment-reveal-enrichment p {
+    font-size: .8rem;
+    font-weight: 400;
+}
+
+#enrichment-reveal-reveal {
+    font-family: "Avenir Next", sans-serif;
+    color: white;
+    line-height: 1.8;
+}
+
+#enrichment-reveal-reveal h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+#enrichment-reveal-reveal p {
+    font-size: .8rem;
+    font-weight: 500;
+}
