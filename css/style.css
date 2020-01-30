@@ -1,0 +1,71 @@
+html {
+    box-sizing: border-box;
+  }
+
+*,
+*:after,
+*:before {
+  margin: 0;
+  box-sizing: inherit;
+}
+
+.body {
+    font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    min-height: 100vh;
+    height: 100%; 
+}
+
+nav {
+    max-width: 100%;
+    background-color: #FCFDFF;
+    padding-left: 30px;
+    padding-right: 10px;
+    overflow: hidden;
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  .logo {
+    display: inline-block;
+    width: 175px;
+    vertical-align: middle;
+    /* color: white;
+    padding-top: 5px; */
+  }
+  
+  
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 1px;
+    font: 15px;
+    font-family: "Avenir Next";
+    /* font-size: .85em; */
+    /* overflow: hidden; */
+  }
+
+  .nav-item a {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #3CC8BB;
+}
+
+.nav-item:hover {
+  background-color: white;
+}
+
+.nav-item:hover a {
+  color: darkgreen;
+}
