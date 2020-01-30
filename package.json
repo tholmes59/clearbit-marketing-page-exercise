@@ -1,0 +1,23 @@
+{
+  "name": "clearbit-marketing-page-exercise",
+  "version": "1.0.0",
+  "description": "The objective of this take home is to demonstrate your skills as a web developer, with a focus on code quality, maintainability, and attention to detail.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tholmes59/clearbit-marketing-page-exercise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tholmes59/clearbit-marketing-page-exercise/issues"
+  },
+  "homepage": "https://github.com/tholmes59/clearbit-marketing-page-exercise#readme",
+  "devDependencies": {
+    "npm-start-command": "^1.0.0"
+  }
+}
