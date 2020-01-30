@@ -15,6 +15,8 @@ html {
     height: 100%; 
 }
 
+/* **************Navbar****************** */
+
 nav {
     max-width: 100%;
     background-color: #FCFDFF;
@@ -69,3 +71,15 @@ nav {
 .nav-item:hover a {
   color: darkgreen;
 }
+
+
+/* *************Client Section************ */
+
+.client-row {
+    display: flex;
+}
+
+.client-column {
+    flex: 20%;
+    align-content: center;
+  }
