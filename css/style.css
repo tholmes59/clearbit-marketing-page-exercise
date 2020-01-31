@@ -186,7 +186,7 @@ nav {
     background-color: rgb(43, 6, 112);
     background-image: linear-gradient(to right, rgb(43, 6, 112), #59C6C4);
     display: grid;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 350px);
     grid-template-columns: repeat(2, 1fr);
     
 }
@@ -195,32 +195,53 @@ nav {
     font-family: "Avenir Next", sans-serif;
     color: white;
     line-height: 1.8;
+    justify-content: right;
+    padding-top: 4rem;
+    padding-left: 12rem;
 }
 
 #enrichment-reveal-enrichment h2 {
     font-size: 1.5rem;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 #enrichment-reveal-enrichment p {
     font-size: .8rem;
-    font-weight: 400;
+    font-weight: 200;
 }
 
 #enrichment-reveal-reveal {
     font-family: "Avenir Next", sans-serif;
     color: white;
     line-height: 1.8;
+    padding-top: 2rem;
 }
 
 #enrichment-reveal-reveal h2 {
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: 300;
 }
 
 #enrichment-reveal-reveal p {
     font-size: .8rem;
-    font-weight: 500;
+    font-weight: 200;
+}
+
+#enrichment-reveal-image-1 {
+    padding-top: 7rem;
+}
+
+#enrichment-reveal-image-1 img {
+    width: 450px;
+}
+
+#enrichment-reveal-image-2 {
+    padding-top: 6rem;
+    padding-left: 12rem;
+}
+
+#enrichment-reveal-image-2 img {
+    width: 450px;
 }
 
 /* ***************Questions Section*************** */
