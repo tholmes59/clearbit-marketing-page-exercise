@@ -328,22 +328,37 @@ nav {
     line-height: 3;
 }
 
-#signup-wrapper {
-    border: solid;
-    width: 75%;
+#signup-text h2 {
+    font-weight: 500;
+}
+
+#signup-text p {
+    font-weight: 200;
+    font-size: .8rem;
+}
+
+#email-form {
+    margin-top: 2rem;
+    display: inline-block;
     position: relative;
 }
 
-#signup-field {
-    float: left;
-    box-sizing: border-box;
-    padding-right: 80px;
-    width: 100%;
+#email-form input {
+    padding-right: 4.6em;
+    width: 20rem;
+    height: 2.5rem;
+    border: 1px solid #3CC8BB;
+    border-radius: 3px;
+    font-weight: 200;
 }
 
-#signup-field-button {
+#email-form button {
     position: absolute;
-    top: 0;
-    right: 0;
-    width: 80px;
+    top: .45rem;
+    right: .1rem;
+    width: 10em;
+    padding: .6rem 1rem;
+    color: white;
+    background: #3CC8BB;
+    border-radius: 3px;
 }
