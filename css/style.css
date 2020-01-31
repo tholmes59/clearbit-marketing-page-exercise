@@ -362,3 +362,30 @@ nav {
     background: #3CC8BB;
     border-radius: 3px;
 }
+
+/* **************Footer****************** */
+
+footer {
+    background: #202932;
+}
+
+#footer-container {
+    margin: 0 82px;
+    padding: 64px 48px;
+}
+
+#footer-menu {
+    color: grey;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 0 64px;
+}
+
+#footer-main {
+    display: inline;
+    
+}
+
+#footer-main p img {
+    width: 5rem;
+}
