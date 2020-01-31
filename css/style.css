@@ -37,10 +37,7 @@ nav {
   
   .logo {
     display: inline-block;
-    /* width: 50px; */
     vertical-align: middle;
-    /* color: white;
-    padding-top: 5px; */
   }
 
   .logo img {
@@ -58,8 +55,6 @@ nav {
     font: 15px;
     font-family: "Avenir Next";
     margin-right: 6rem;
-    /* font-size: .85em; */
-    /* overflow: hidden; */
   }
 
   .nav-item a {
@@ -82,6 +77,42 @@ nav {
 
 .nav-item:hover a {
   color: darkgreen;
+}
+
+/* **************Main Signup Section************* */
+
+#main-signup {
+    background-color: #36ADBD;
+    background-image: linear-gradient(to right, #3CC8BB, #36ADBD);
+    position: relative;
+    width: 100%;
+}
+
+#main-signup-text {
+    color: white;
+    position: absolute;
+    bottom: 300px;
+    right: 220px;
+    text-align: left;
+    line-height: 1.6;
+    font-family: "Avenir Next", sans-serif;
+}
+
+#main-signup-text h2 {
+    font-weight: 200;
+    font-size: 2rem;
+}
+
+#main-signup-text p {
+    font-weight: 200;
+}
+
+#main-signup-text button {
+    color: #36ADBD;
+    margin-top: 2rem;
+    padding: .9rem 4rem;
+    border: 0px;
+    border-radius: 3px;
 }
 
 
