@@ -59,8 +59,14 @@
               <div class="quality-leads-image">
                 <img src="./assets/database.png" alt="">
               </div>
+              <div id="quality-leads-line-grey">
+
+              </div>
               <div class="quality-leads-image">
                     <img src="./assets/cube.png" alt="">
+              </div>
+              <div id="quality-leads-line-pink">
+
               </div>
               <div class="quality-leads-image">
                     <img src="./assets/human.png" alt="">
@@ -148,16 +154,38 @@
                     <div>COMPANY</div>
                     <div>LEGAL</div>
                 </div>
+                <hr><br>
                 <div id="footer-main">
-                    <hr><br>
-                    <p>
+                    
+                    <!-- <p>
                         <img src="./assets/clearbit-logo-footer.png" alt="">
                         <span>All Rights Reserved 2016</span> 
                         <button>SIGN IN</button>
                         <button>SIGN UP</button>
-                    </p>
+                    </p> -->
+                    <div class="item">
+                        <img src="./assets/clearbit-logo-footer.png" alt="">
+                    </div>
+                    <div class="item">
+                        <span>All Rights Reserved 2016</span>
+                    </div>
+                        <div id="item push-right">
+                            <button class="footer-button">SIGN IN</button>
+                            <button class="footer-button">SIGN UP</button>
+
+                        </div>
                 </div>
             </div>
         </footer>
   </body>
+  <script>
+      fetch('http://interview.plaid.com/data/footer.json', {method: 'get',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            }})
+      .then(res => res.json())
+      .then(data => console.log(data))
+     
+  </script>
 </html>
