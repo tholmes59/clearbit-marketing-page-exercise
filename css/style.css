@@ -382,6 +382,7 @@ nav {
 
 footer {
     background: #202932;
+    font-family: "Avenir Next", sans-serif;
 }
 
 #footer-container {
@@ -396,31 +397,17 @@ footer {
     margin: 0 0 64px;
 }
 
-#footer-main {
-    display: flex;
-    /* flex-direction: row; */
-    vertical-align: middle
-    
-}
-
-/* #footer-main p img {
-    width: 5rem;
-}
-
-#footer-main p span {
-    vertical-align: middle;
-    color: grey;
-    font-size: .5rem;
-} */
-
 .item {
     /* width: 100px; */
     padding: 10px;
     vertical-align: middle;
+    float: left;
   }
 
   .push-right {
-    margin-right: auto;
+    padding: 10px;
+    vertical-align: middle;
+    float: right;
   }
 
   .item img {
@@ -441,4 +428,9 @@ footer {
     border: 1px solid #59C6C4;
     border-radius: 3px;
     padding: .3rem 1rem;
+    margin-right: 1rem;
+  }
+
+  .footer-line {
+    border: .5px solid grey;
   }
