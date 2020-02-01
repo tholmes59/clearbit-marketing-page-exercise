@@ -294,6 +294,34 @@ nav {
     text-align: left;
 }
 
+.shape-container {
+	display: flex;
+    flex-direction: row;
+    }
+ 
+ .square-container {
+ display: flex;
+ flex-direction: column;
+ }
+ 
+.rectangle {
+  height: 50px;
+  width: 30px;
+  background-color: #555;
+}
+
+.square1 {
+  height: 25px;
+  width: 30px;
+  background-color: grey;
+}
+.square2 {
+  height: 25px;
+  width: 30px;
+  background-color: red;
+}
+
+
 #question-box span {
     color: rgb(4, 116, 131);
     margin-left: 20px;
@@ -386,7 +414,7 @@ footer {
 }
 
 #footer-container {
-    margin: 0 82px;
+    margin: 0 120px;
     padding: 64px 48px;
 }
 
@@ -395,6 +423,28 @@ footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin: 0 0 64px;
+}
+
+#footer-menu ul {
+    padding: 0;
+}
+#footer-menu ul li {
+    list-style-type: none;
+    margin: 1rem 0;
+    color: #59C6C4;
+}
+
+#footer-menu ul li a {
+    text-decoration: none;
+    color: #59C6C4;
+}
+
+#company {
+    margin-left: 3rem;
+}
+
+#legal {
+    margin-left: 8rem;
 }
 
 .item {
