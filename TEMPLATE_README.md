@@ -9,7 +9,7 @@ To setup this project and install it's tools/dependencies, if any, run the
 following command(s):
 
 ```
-// FILL_THIS_OUT
+Make sure you have the latest version of NPM installed.
 ```
 
 ## Running locally
@@ -17,7 +17,7 @@ following command(s):
 To run this project locally as a static-webpage, run the following command(s):
 
 ```
-// FILL_THIS_OUT
+run `http-server` in the CMD line in the projects folder and navigate to localhost:8081 in the browser.
 ```
 
 ## Future improvements
@@ -27,3 +27,7 @@ simple or speedy task, which is why we'd like to see what future
 improvements you would suggest to get this project to a 100% production
 ready state. No suggestion is a bad one, and we welcome every detail you
 provide.*
+
+*The only suggestion is a minor one but maybe providing a file with the text of the site content may speed things up a bit.* 
+
+
