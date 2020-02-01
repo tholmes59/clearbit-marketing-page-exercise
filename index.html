@@ -114,8 +114,9 @@
                 <p>
                     Ask Clearbit questions instead of asking your customers
                 </p>
+                
                 <p id="question-box">
-                    Use Clearbit's Data Enrichment To: <span>Enrichment/</span>     
+                    Use Clearbit's Data Enrichment To: <span>Enrichment/</span>    
                 </p>
             </div>
         </div>
@@ -149,10 +150,48 @@
         <footer>
             <div id="footer-container">
                 <div id="footer-menu">
-                    <div>PRODUCTS</div>
-                    <div>INFORMATION</div>
-                    <div>COMPANY</div>
-                    <div>LEGAL</div>
+                    <div>
+                        <p>PRODUCTS</p> 
+                            <ul id="products-container">
+                                <li><a href="#">Enrichment</a></li>
+                                <li><a href="#">Discovery</a></li>
+                                <li><a href="#">Watchlist</a></li>
+                                <li><a href="#">Prospector</a></li>
+                                <li><a href="#">SalesForce</a></li>
+                                <li><a href="#">Sheets</a></li>
+                            </ul>
+                    </div>
+                    
+                    <div> 
+                        <p>INFORMATION</p>
+                        <ul id="information-container">
+                                <li><a href="#">Pricing</a></li>
+                                <li><a href="#">Status</a></li>
+                                <li><a href="#">Support</a></li>
+                                <li><a href="#">Documentation</a></li>
+                        </ul>
+
+                    </div>
+                    <div id="company">
+                        <p>COMPANY</p>
+                        <ul id="company-container">
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Jobs</a></li>
+                                <li><a href="#">Twitter</a></li>
+                                <li><a href="#">Facebook</a></li>
+                        </ul>
+
+                    </div>
+                    <div id="legal">
+                        <p>LEGAL</p>
+                        <ul id="legal-container">
+                                <li><a href="#">Claim</a></li>
+                                <li><a href="#">Privacy</a></li>
+                                <li><a href="#">Terms</a></li>
+                        </ul>
+
+                    </div>
                 </div>
                 <hr class="footer-line">
                 <div id="footer-main" style="clear: both;">
@@ -171,14 +210,13 @@
         </footer>
   </body>
   <script>
-      fetch('http://interview.plaid.com/data/footer.json', {
-            method: 'get',
-            headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json'
-            }})
-      .then(res => res.json())
-      .then(data => console.log(data))
-     
+      fetch('https://cors-anywhere.herokuapp.com/' + 'http://interview.plaid.com/data/footer.json', {
+    method: 'get',
+    headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+    }})
+    .then(res => res.json())
+    .then(data => console.log(data))
   </script>
 </html>
