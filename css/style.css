@@ -1,12 +1,12 @@
 html {
     box-sizing: border-box;
-  }
+}
 
 *,
 *:after,
 *:before {
-  margin: 0;
-  box-sizing: inherit;
+    margin: 0;
+    box-sizing: inherit;
 }
 
 .body {
@@ -27,7 +27,7 @@ nav {
     padding-bottom: 10px;
   }
 
-  .navbar {
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,18 +35,18 @@ nav {
     overflow: hidden;
   }
   
-  .logo {
+.logo {
     display: inline-block;
     vertical-align: middle;
   }
 
-  .logo img {
+.logo img {
     width: 100px;
     margin-top: .4rem;
     margin-left: 12rem;
   }
   
-  .nav-links {
+.nav-links {
     display: flex;
     list-style: none;
     justify-content: space-between;
@@ -57,11 +57,11 @@ nav {
     margin-right: 6rem;
   }
 
-  .nav-item a {
-  display: inline-block;
-  padding: 10px 15px;
-  text-decoration: none;
-  color: #3CC8BB;
+.nav-item a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #3CC8BB;
 }
 
 .nav-item a button {
@@ -69,14 +69,6 @@ nav {
     border: 1px solid #3CC8BB;
     border-radius: 4px;
     padding: .2rem 1rem;
-}
-
-.nav-item:hover {
-  background-color: white;
-}
-
-.nav-item:hover a {
-  color: darkgreen;
 }
 
 /* **************Main Signup Section************* */
@@ -115,7 +107,6 @@ nav {
     border-radius: 3px;
 }
 
-
 /* *************Client Section************ */
 
 .client-row {
@@ -124,7 +115,6 @@ nav {
     justify-content: center;
     background-color: whitesmoke;
     padding: 1rem 0;
-    
 }
 
 .client-column {
@@ -297,30 +287,29 @@ nav {
 .shape-container {
 	display: flex;
     flex-direction: row;
-    }
+}
  
- .square-container {
- display: flex;
- flex-direction: column;
+.square-container {
+    display: flex;
+    flex-direction: column;
  }
  
 .rectangle {
-  height: 50px;
-  width: 30px;
-  background-color: #555;
+    height: 50px;
+    width: 30px;
+    background-color: #555;
 }
 
 .square1 {
-  height: 25px;
-  width: 30px;
-  background-color: grey;
+    height: 25px;
+    width: 30px;
+    background-color: grey;
 }
 .square2 {
-  height: 25px;
-  width: 30px;
-  background-color: red;
+    height: 25px;
+    width: 30px;
+    background-color: red;
 }
-
 
 #question-box span {
     color: rgb(4, 116, 131);
@@ -338,8 +327,8 @@ nav {
     
 }
 #testimony-container img {
-   align-items: left;
-   justify-content: left;
+    align-items: left;
+    justify-content: left;
 }
 
 #testimony-text {
@@ -448,29 +437,28 @@ footer {
 }
 
 .item {
-    /* width: 100px; */
     padding: 10px;
     vertical-align: middle;
     float: left;
-  }
+}
 
-  .push-right {
+.push-right {
     padding: 10px;
     vertical-align: middle;
     float: right;
-  }
+}
 
-  .item img {
+.item img {
       width: 5rem;
-  }
+}
 
-  .item span {
+.item span {
     vertical-align: middle;
     color: grey;
     font-size: .5rem;
-  }
+}
 
-  .footer-button {
+.footer-button {
     vertical-align: middle;
     color: #59C6C4;
     font-size: .5rem;
@@ -479,8 +467,8 @@ footer {
     border-radius: 3px;
     padding: .3rem 1rem;
     margin-right: 1rem;
-  }
+}
 
-  .footer-line {
+.footer-line {
     border: .5px solid grey;
-  }
+}
